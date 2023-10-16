@@ -16,9 +16,9 @@ jobs:
       uses: Azure/docker-login@v1
       with:
         # Container registry username
-        username: ${{ secrets.ACR_USERNAME }}
+        username: harrisoncontainerregistry
         # Container registry password
-        password: ${{ secrets.ACR_PASSWORD }}
+        password: 4PCXH8JcT22RvcAnT53/+EWvFDZmT6uwKJIiHGMp2F+ACRCxFLAd
         # Container registry server url
         login-server: harrisoncontainerregistry.azurecr.io
         
